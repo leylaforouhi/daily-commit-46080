@@ -1,2 +1,6 @@
-# daily-commit-46080
-Daily GitHub activity with a simple Python utility
+def count_digits(number):
+    return len(str(abs(number)))
+
+if __name__ == "__main__":
+    num = 123456
+    print(f"Number of digits in {num}: {count_digits(num)}")
